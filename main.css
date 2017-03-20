@@ -1,0 +1,24 @@
+.container{
+    height: 100%;
+    width: 100%;
+    padding: 2em;
+}
+
+/*扩大点击区域*/
+.little_area{
+    position: relative;
+    padding: 0.2em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    background-color: rgba(255,255,0, 0.6);
+}
+.little_area:after{
+    position: absolute;
+    content: '';
+    top:-2em;
+    right:-2em;
+    bottom:-2em;
+    left: -2em;
+    background-color: rgba(0,0,0, 0.5);
+}
